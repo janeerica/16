@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>school web</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">TKS GOA</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="#home">INF0</a></li>
+                <li><a href="#movies">VIDEOS</a></li>
+                <li><a href="#enviorement">REVIEW</a></li>
+                <li><a href="#work">AWARDS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </div>
+<section>
+        <div>
+            <img src="data:image/jpeg;base64,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">
+            <h1> THE KINGS SCHOOL</h1>
+            <h2> MUGALI GOA</h2>
+        </div>
+        </section>
+        <section id="detail">
+            <h1> TKS GOA
+            </h1>
+            <div class="line"></div>
+            <p>The Kings School is an English Medium co-educational school in Mugalli, Goa. The school is affiliated to the Central Board of Secondary Education (CBSE). The school was a dream of founder Chairman Manuel Filipe Pereira and founder Annette Pereira. Chairman Melvin Pereira and director Ligia Pereira envisioned and executed those dreams in the garden of Child Care School, where in the year 2005, The Kings School was planted, nurtured and grew. The school has over 20 classrooms. It was initially based for grades from Nursery to X but on February 2014, the school announced that it would have a higher secondary (XI and XII).<br><br />On Children's day, 14 November 2006 the school purchased a 2.5 acre land in the scenic village of Mugalli in Sao Jose de Areal, 4 km away from Margao. In May 2007 a further 2.5 acre land was purchased and the foundation stone was laid by the founder of Child Care School, Annette Pereria on 14 June 2007 for the 3,000 m2 built up area school building for The Kings School. The building was fully completed on record time by the builders. The building was furnished and ready to start a new academic year on 5 June 2008. One of the then Lok Sabha Member of Parliament, Francisco Sardinha inaugurated the new school building at the School Sports Festival in 2009. The second phase of the school started construction on June 2008. The third phase of the school was completed in the academic year 2013-14. This phase was built for the IX-XII classes. Other than this the phase also houses the school canteen 'Pitstop', a staffroom and an indoor sports room.</p>
+        </section>
+        <section id="videos"><iframe width="560" height="315" src="https://www.youtube.com/embed/jtW0vTPLEUg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></section>
+        <section id="work"> <iframe width="900" height="1200" src="https://en.wikipedia.org/wiki/The_King's_School,_Goa" allowfullscreen></iframe></section>
+        <section id="writting"><a href="https://blog.myorb.com/category/tim-berners-lee/">MY WRITTINGS</a> </section>
+        <section id="contact"> src="<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3848.90182961571!2d74.00384711432761!3d15.273148564336335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbfb23e052b77fb%3A0x84324b08290e593d!2sThe%20King&#39;s%20School%2C%20Goa!5e0!3m2!1sen!2sin!4v1613398417294!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            <div class="contact">
+                <a href="mailto:whitehatjuniorjane@gmail.com?Subject=hello">
+                    <i class="fa fa-envelope"></i>&nbsp;&nbsp;<h3>admin@kings.lincs.sch.uk </h3>
+                </a>
+
+            </div>
+        </section>
+
+
+
+        <br><br>
+        <div class="page header" id="movies">
+            <h1 class="text-capitalize">SCHOOL ACIVEMENTS </h1>
+        </div>
+        <div class="bg-primary movie_head" data-toggle="collapse" data-target="#ACHIVE">
+            <span class="glyphicon glyphicon-film"></span> SCHOOL ACHIVEMENTS<i class="fa fa-sort-desc"></i>
+        </div>
+        <div id="ACHIVE" class="collapse">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12"> <img src="https://www.bing.com/th?id=OIP.AeL99fDrdr1u6koSgGROgQHaHa&w=98&h=100&c=8&rs=1&qlt=90&pid=3.1&rm=2" class="img-responsive img-thumbnail">
+            </div>
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+                <h4 class="text-sucess text-left text-capitalize">exellent film</h4>
+               
+<div>
+                <p>WON THE INTER SCHOOL  DANCE COMPETION HELD ON 3RD MARCH 2019</p>
+            </div>
+        </div>
+    <h1>CAMPUS LIFE</h1>
+         <div> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Students_attending_Wikipedia_workshop%2C_The_Kings_School%2C_Goa.jpg/227px-Students_attending_Wikipedia_workshop%2C_The_Kings_School%2C_Goa.jpg">
+            </div>
+            
+        </div>
+        <section id="contact">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15078.353856082635!2d72.8906491!3d19.1257017!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xacf72f56793d190a!2sWHITEHAT%20EDUCATION%20TECHNOLOGY%20PVT%20LTD!5e0!3m2!1sen!2sin!4v1573468987088!5m2!1sen!2sin" height="450" frameborder="0" allowfullscreen=""></iframe>
+
+
+            <div class="contact_1">
+
+                <a href="mailto:my@gmail.com?Subject=Hi">
+                    <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;admin@kings.lincs.sch.uk </h5>
+                </a>
+
+                <a href="#">
+                    <h5><i class="fa fa-instagram"></i>&nbsp;&nbsp;tksgoa</h5>
+                </a>
+            </div>
+        </section>
+
+</body>
+
+</html>
